@@ -1,0 +1,2 @@
+sim_time,observer_id,observed_id,msg_frequency,pos_x_mean,pos_y_mean,speed_mean,speed_var,heading_mean,heading_change_rate,accel_mean,accel_var,brake_ratio,distance_traveled,pos_jump_count,max_pos_jump,speed_pos_consistency,traj_smoothness,neighbor_count,rssi_mean,rssi_consistency,timestamp_regularity,sender_recv_dist_consistency,is_sybil,attack_type
+598.6000,146,146,4.4000,1558.3686,1221.2453,2.4980,1.8558,163.3407,8.4881,1.8730,0.1991,0.0000,65.2069,1,8.3543,33.3274,1.1430,1.0000,13.0000,14.4808,0.0294,14.4808,0,0

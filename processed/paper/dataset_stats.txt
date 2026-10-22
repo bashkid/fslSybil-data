@@ -1,0 +1,53 @@
+======================================================================
+DATASET STATISTICS — Sybil Detection in IoV
+======================================================================
+
+Total Samples: 65,087
+
+Class Distribution:
+  Legitimate (0): 49,563 (76.1%)
+  Sybil (1):      15,524 (23.9%)
+  Imbalance ratio: 1 : 0.31
+
+Attack Type Distribution:
+  Legitimate     : 49,563 (76.1%)
+  SA-RND         : 1,315 (2.0%)
+  SA-TRJ         : 1,299 (2.0%)
+  SA-CRD         : 12,910 (19.8%)
+
+Per-Scenario Sample Count:
+  S 0:    128 total  (Legit: 113, Sybil: 15)
+  S 1:  5,148 total  (Legit: 4,945, Sybil: 203)
+  S 2:  5,149 total  (Legit: 4,945, Sybil: 204)
+  S 3:  5,147 total  (Legit: 4,945, Sybil: 202)
+  S 4:  6,042 total  (Legit: 4,945, Sybil: 1,097)
+  S 5:  6,040 total  (Legit: 4,945, Sybil: 1,095)
+  S 6:  6,044 total  (Legit: 4,945, Sybil: 1,099)
+  S 7:  7,114 total  (Legit: 4,945, Sybil: 2,169)
+  S 8: 10,407 total  (Legit: 4,945, Sybil: 5,462)
+  S 9:  5,504 total  (Legit: 4,945, Sybil: 559)
+  S10:  8,364 total  (Legit: 4,945, Sybil: 3,419)
+
+Feature Statistics:
+  Feature                                     Mean          Std          Min          Max
+  --------------------------------------------------------------------------------------
+  msg_frequency                              9.273        2.057        0.600       10.000
+  pos_x_mean                              1297.676      416.493      359.924     3139.266
+  pos_y_mean                               722.227      270.542       32.349     1718.085
+  speed_mean                                12.232        5.830        0.000       32.294
+  speed_var                                  5.832        8.466        0.000       79.480
+  heading_mean                             211.312       94.351        1.743      359.833
+  heading_change_rate                        3.229       12.857        0.000      178.351
+  accel_mean                                 0.396        0.870       -4.710        2.761
+  accel_var                                  0.665        1.893        0.000       12.264
+  brake_ratio                                0.049        0.146        0.000        1.000
+  distance_traveled                        260.128     1485.023        0.038    15562.431
+  pos_jump_count                             0.755        5.732        0.000       49.000
+  max_pos_jump                              12.758       71.235        0.038      651.606
+  speed_pos_consistency                      4.780       30.323        0.000      480.226
+  traj_smoothness                            1.837        3.677        0.002       39.348
+  neighbor_count                             6.014        9.250        1.000       49.000
+  rssi_mean                                 -0.047       19.819      -63.815       13.000
+  rssi_consistency                          23.809       11.788        0.000       34.752
+  timestamp_regularity                       0.015        0.079        0.000        2.150
+  sender_recv_dist_consistency              23.809       11.788        0.000       34.752
